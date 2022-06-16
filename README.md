@@ -3,8 +3,7 @@
 <html>
 <head>
     <!-- Information about the page -->
-    <!--This is the comment tag-->
-     
+    <!--This is the comment tag-->   
     
 </head>
  
