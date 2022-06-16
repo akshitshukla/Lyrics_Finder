@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lyrics Finder</title>
+    <link rel="stylesheet" href="Singtheright.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="imgContainer">
+      <h1 class="first">
+        S
+        <h3 class="second">ing The Right...</h3>
+      </h1>
+      <div class="mainContent">
+        <div class="subHead">LyricsSearch</div>
+        <label class="label">
+          <input
+            class="searchBar"
+            id="inputTerm"
+            type="text"
+            placeholder="Enter artist or song name..."
+          />
+          <button class="search" onclick="callSearchSong()">Search</button>
+        </label>
+      </div>
+    </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      "
+    >
+      <div id="result">Result will be displayed here</div>
+    </div>
+    <div style="display: flex; justify-content: center; margin: 10px">
+      <div id="more" class="container centered"></div>
+    </div>
+  </body>
+  <script defer src="Singtheright.js"></script>
+</html>

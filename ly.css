@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  margin: 0;
+}
+.imgContainer {
+  background-image: url(https://42796r1ctbz645bo223zkcdl-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/1260x485-bass-guitar-1281x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  padding: 30px 0;
+  position: relative;
+  box-shadow: 8px 4px 60px rgb(26, 25, 25) inset;
+  width: 100%;
+}
+.first {
+  font-size: 80px;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: -1%;
+  letter-spacing: 0.3rem;
+  color: rgb(45, 143, 88);
+  text-shadow: 1px 1px 2px black, 0 0 5px rgb(17, 17, 17), 0 0 10px darkblue;
+}
+.second {
+  color: rgb(170, 156, 156);
+  font-size: 35px;
+  letter-spacing: 0.2rem;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px black, 0 0 5px rgb(15, 15, 15), 0 0 10px darkblue;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subHead {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(225, 215, 121);
+  margin-bottom: 15px;
+  bottom: 8px;
+}
+@media screen and (max-width: 1400px) {
+  .subHead {
+    color: black;
+    background-color: rgb(227, 178, 65);
+    border: 1px solid rgb(227, 178, 65);
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .subHead {
+    color: rgb(225, 215, 121);
+    background-color: transparent;
+  }
+}
+.label {
+  position: relative;
+  width: 500px;
+  max-width: 100%;
+}
+label input {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  width: 100%;
+}
+label button {
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  cursor: pointer;
+  padding: 14px 30px;
+  border-radius: 50px;
+  background-color: coral;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  border: 0;
+}
+#result {
+  font-size: 1.1rem;
+  width: 500px;
+  max-width: 100%;
+  background-color: rgb(216, 221, 216);
+}
+
+li {
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -38px;
+}
+.btn {
+  background-color: rgb(96, 96, 128);
+  border: 1px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  color: white;
+}
+.page {
+  height: 23px;
+  width: 70px;
+}
